@@ -1,0 +1,31 @@
+import Item from '../models/items';
+
+export const ItemList = [
+    new Item('I1', 'വലിയഉള്ളി', '#f5428d', require('./veg.jpg'), 18, 0),
+    new Item('I2', 'ചെറിയഉള്ളി', '#da6b7e', require('./fruits.jpg'), 27, 1),
+    new Item('I3', 'തക്കാളി', '#f2ab88', require('./snacks.jpeg'), 20, 2),
+    new Item('I4', 'പച്ച മുളക്', '#f55496', require('./foodgrains.png'), 15, 3),
+    new Item('I5', 'ഇഞ്ചി', '#f5d21d', require('./readymade.jpg'), 30, 4),
+    new Item('I6', 'വെളുത്തുള്ളി', '#f22cd', require('./egg.jpg'), 25, 5),
+    new Item('I7', 'ഉരുളകിഴങ്', '#f142cd', require('./hygeine.jpg'), 28, 6),
+    new Item('I8', 'വെണ്ടക്ക', '#fa468d', require('./beauty.jpg'), 15, 7),
+    new Item('I9', 'ക്യാരറ്റ്', '#f5de36', require('./rice.jpg'), 18, 8),
+    new Item('I10', 'ബീൻസ്', '#f5ad06', require('./pooja.jpg'), 18, 9),
+    new Item('I11', 'അമര', '#afde36', require('./cool.jpg'), 20, 10),
+    new Item('I12', 'കൊത്തമരാ', '#afde36', require('./veg.jpg'), 28, 11),
+    new Item('I13', 'പയർ', '#afde36', require('./veg.jpg'), 30, 12),
+    new Item('I14', 'തേങ്ങാ', '#afde36', require('./veg.jpg'), 50, 13),
+    new Item('I15', 'ബീറ്റ്റൂട്ട്','#afde36',  require('./veg.jpg'), 25, 14),
+    new Item('I16', 'കോവക്ക','#afde36',  require('./veg.jpg'), 30, 15),
+    new Item('I17', 'കോളിഫ്ലവർ','#afde36',  require('./veg.jpg'), 35, 16),
+    new Item('I18', 'കാബേജ്','#afde36',  require('./veg.jpg'), 28, 17),
+    new Item('I19', 'ക്യാരറ്റ്','#afde36',  require('./veg.jpg'), 25, 18),
+    new Item('I20', 'ചെരങ്ങാ','#afde36',  require('./veg.jpg'), 20, 19),
+    new Item('I21', 'പടവലം','#afde36',  require('./veg.jpg'), 23, 20),
+    new Item('I22', 'ചേന','#afde36',  require('./veg.jpg'), 17, 21),
+    new Item('I23', 'കപ്പ','#afde36',  require('./veg.jpg'), 30, 22),
+    new Item('I24', 'കുമ്പളങ്ങ','#afde36',  require('./veg.jpg'), 25, 23),
+    new Item('I25', 'ബീൻസ്','#afde36',  require('./veg.jpg'), 25, 24),
+    new Item('I26', 'വെള്ളരിക്ക','#afde36',  require('./veg.jpg'), 30, 25),
+]
+
